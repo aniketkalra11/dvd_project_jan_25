@@ -3,9 +3,26 @@ toc: false
 ---
 
 <div class="hero">
-  <h1>DVD Project Jan 25</h1>
+  <h1>Insightful Pixels</h1>
   <h2>Welcome to your new app! Edit&nbsp;<code style="font-size: 90%;">src/index.md</code> to change this page.</h2>
   <a href="https://observablehq.com/framework/getting-started">Get started<span style="display: inline-block; margin-left: 0.25rem;">↗︎</span></a>
+</div>
+<div class="grid grid-cols-2" style="grid-auto-rows: 700px;">
+
+<div class="flourish-embed flourish-map" data-src="visualisation/22376509"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/22376509/thumbnail" width="20vw" alt="map visualization" /></noscript></div>
+
+<div class="card">${
+    resize((width) => Plot.plot({
+      title: "Your awesomeness over time 🚀",
+      subtitle: "Up and to the right!",
+      width,
+      y: {grid: true, label: "Awesomeness"},
+      marks: [
+        Plot.ruleY([0]),
+        Plot.lineY(aapl, {x: "Date", y: "Close", tip: true})
+      ]
+    }))
+  }</div>
 </div>
 
 <div class="grid grid-cols-2" style="grid-auto-rows: 504px;">
