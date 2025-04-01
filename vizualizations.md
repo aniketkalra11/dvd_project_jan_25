@@ -9,3 +9,4 @@
 | Cancellation Ratio - map (district wise) | https://public.flourish.studio/visualisation/22379694/ |
 | Order Count vs Literacy Rate | https://public.flourish.studio/visualisation/22376220/ |
 | State Wise order count | https://public.flourish.studio/visualisation/22376220/ |
+| Order Count vs Sex Ratio | https://public.flourish.studio/visualisation/22412084/ |
