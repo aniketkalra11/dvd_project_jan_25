@@ -17,32 +17,52 @@ title: Amazon dataset Dashboard
     <h3>609.36</h3>
   </div>
   <div class="card">
-    <h1>Min Sales</h1>
-    <h3>XX,XXX</h3>
+    <h1>Min Sales Date</h1>
+    <h3>09/06/2022</h3>
   </div>
   <div class="card">
     <h1>Max Shipped Day</h1>
-    <h3>XX,XXX</h3></div>
+    <h3>31/03/2022</h3>
+  </div>
 </div>
+
 
 <div class="card">
   <div class="flourish-embed flourish-scatter" data-src="visualisation/22421605"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/22421605/thumbnail" width="100%" alt="scatter visualization" /></noscript></div>
 </div>
+<div class="card" >
+  <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/22376883"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/22376883/thumbnail" width="100%" alt="bar-chart-race visualization" /></noscript></div>
+</div> 
+
+
+<div class="grid grid-cols-2"> 
+  <div class="card grid-rowspan-2" id="state_order_map">
+    <div class="flourish-embed flourish-map" data-src="visualisation/22446165"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/22446165/thumbnail" width="100%" alt="map visualization" /></noscript></div>
+  </div>
+  <div class="card" id="state_order_bar_chart" >
+    <div class="flourish-embed flourish-chart" data-src="visualisation/22458211"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/22458211/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
+    <h2> Top 5 by sales amount & category Distribution</h2>
+  </div>
+  <div class="card" >
+    <div class="flourish-embed flourish-chart" data-src="visualisation/22373061"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/22373061/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
+    <h2>Day wise Amzaon dataset</h2>
+  </div>
+
+</div>
 
 <div class="grid grid-cols-2">
-  <div class="card grid-rowspan-2" style="height: 850px;" >
+  <div class="card">
     <div class="flourish-embed flourish-map" data-src="visualisation/22376220" style="display:block;" id="map1"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/22376220/thumbnail"  alt="map visualization" /></noscript></div>
     <div class="flourish-embed flourish-map" style="display:none;" id="map2" data-src="visualisation/22412084"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/22412084/thumbnail" width="100%" alt="map visualization" /></noscript></div>
-    <h3> District wise data</h3>
+    <br>
+    <div class="flourish-embed flourish-map" data-src="visualisation/22412084" id="map2" style="display:none" ><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/22412084/thumbnail" width="100%" alt="map visualization" /></noscript></div>
+    <button onclick="switchMap()">Change map</button>
   </div>
-  <div class="card" style="height:350px;">
-    <div class="flourish-embed flourish-chart" data-src="visualisation/22373061"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/22373061/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
+  <div class="card" >
+    <div class="flourish-embed flourish-map" data-src="visualisation/22379694"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/22379694/thumbnail" width="100%" alt="map visualization" /></noscript></div>
+   
   </div>
-  <div class="card" style="height: 400px;">
-    <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/22376883"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/22376883/thumbnail" width="100%" alt="bar-chart-race visualization" /></noscript></div>
-  </div> 
-  </div>
-
+  
   <script>
     let disabled=true;
     function switchMap()
@@ -78,7 +98,8 @@ title: Amazon dataset Dashboard
         map1.style.display= "block";
       }
     }
+
   </script>
-  <button onclick="switchMap()">hit me</button>
+  
 </div>
 

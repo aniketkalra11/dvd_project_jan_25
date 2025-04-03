@@ -3,7 +3,6 @@ title: International Sales Report
 ---
 # International Sales Data
 
-<h3> will discuss and fill the appropriate chart in the given section</h3>
 <div class="grid grid-cols-4">
   <div class="card">
     <h1>Items Shipped</h1>
@@ -23,15 +22,16 @@ title: International Sales Report
 </div>
 
 
-<div class= "grid grid-cols-2">
-  <div class="card">
-    <h1> Map 1 </h1>
-  </div>
-  <div class="card">
-    <h1> Map 2 </h1>
-  </div>
+<div class ="card">
+  <h1>Sales Trend, Flow graph </h1>
 </div>
 
-<div class ="card">
-  in case something is required we will add here
+<div class= "grid grid-cols-2">
+  <div class="card">
+    <h1> Top styles Vs Sales </h1>
+    TODO: will submit
+  </div>
+  <div class="card">
+    <h1> Retension Ratio</h1>
+  </div>
 </div>

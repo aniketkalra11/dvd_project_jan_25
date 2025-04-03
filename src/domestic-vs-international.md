@@ -1,22 +1,14 @@
 ---
 title: Domestic Vs International Salse
 ---
-<div class="grid grid-cols-4">
+<h1> Domestic V/s International data </h1>
+<div class="grid grid-cols-2">
   <div class="card">
-    <h1>Items Shipped</h1>
-    <h3>116,649</h3>
+    <h1>Domestic Sales</h1>
   </div>
   <div class="card">
-    <h1>Items Returned</h1>
-    <h3>609.36</h3>
+    <h1>International Sales</h1>
   </div>
-  <div class="card">
-    <h1>Max Items</h1>
-    <h3>XX,XXX</h3>
-  </div>
-  <div class="card">
-    <h1>Max Shipped Day</h1>
-    <h3>XX,XXX</h3></div>
 </div>
 
 
@@ -29,6 +21,21 @@ title: Domestic Vs International Salse
   </div>
 </div>
 
-<div class ="card">
-  in case something is required we will add here
+
+<div class="grid grid-cols-2">
+  <div class ="card">
+    <h1> Top Style Domestic</h1>
+  </div>
+  <div class="card">
+    <h1>Top Style International</h1>
+  </div>
+</div>
+
+<div class="grid grid-cols-2">
+  <div class="card">
+    <h1> Max sales day</h1>
+  </div>
+  <div class="card">
+    <h1>Max Sales day</h1>
+  </div>
 </div>
