@@ -33,9 +33,9 @@ title: Domestic Vs International Salse
 
 <div class="grid grid-cols-2">
   <div class="card">
-    <h1> Max sales day</h1>
+    <div class="flourish-embed flourish-chart" data-src="visualisation/22467574"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/22467574/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
   </div>
   <div class="card">
-    <h1>Max Sales day</h1>
+    <div class="flourish-embed flourish-chart" data-src="visualisation/22467481"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/22467481/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
   </div>
 </div>

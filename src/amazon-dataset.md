@@ -9,20 +9,20 @@ title: Amazon dataset Dashboard
 
 <div class="grid grid-cols-4">
   <div class="card">
-    <h1>Total Items Sold</h1>
-    <h3>116,649</h3>
+    <h3>Total Items Sold</h3>
+    <h1>116,649</h1>
   </div>
   <div class="card">
-    <h1>Avg Price of Item</h1>
-    <h3>609.36</h3>
+    <h3>Avg Price of Item</h3>
+    <h1>609.36</h1>
   </div>
   <div class="card">
-    <h1>Min Sales Date</h1>
-    <h3>09/06/2022</h3>
+    <h3>Min Sales Date</h3>
+    <h1>09/06/2022</h1>
   </div>
   <div class="card">
-    <h1>Max Shipped Day</h1>
-    <h3>31/03/2022</h3>
+    <h3>Max Sales Day</h3>
+    <h1>31/03/2022</h1>
   </div>
 </div>
 
