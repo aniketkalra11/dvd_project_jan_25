@@ -14,11 +14,11 @@ title: International Sales Report
   </div>
   <div class="card">
     <h3>Max Sales Date</h3>
-    <h1>31/03/2022</h1>
+    <h1>14/09/2021</h1>
   </div>
   <div class="card">
     <h3>Min Sales Day</h3>
-    <h1>05/06/2021</h1>
+    <h1>20/05/2021</h1>
     </div>
 </div>
 
